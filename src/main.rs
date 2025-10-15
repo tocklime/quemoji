@@ -33,7 +33,7 @@ fn main() {
     let output : Arc<Mutex<Option<String>>> = Arc::new(Mutex::new(None));
 
     // Main window
-    let mut wind = Window::new(100, 100, 400, 300, "Live Input");
+    let mut wind = Window::new(100, 100, 400, 300, "Quemoji");
     wind.make_resizable(true);
     let flex = Pack::new(0, 0, 400, 300, "emoji search");
 
